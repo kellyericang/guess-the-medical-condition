@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "name": "anaphylaxis",
+      "symptoms": [
+        "itchy skin", "raised, red skin rash", "swollen eyes, lips, hands, and feet", "feeling lightheaded or faint", "swelling of the mouth, throat, or tongue", "wheezing", "abdombinal pain", "nausea and vomiting", "collaspe and unconsciousness"
+      ]
+    },
+    {
+      "name": "allergies",
+      "symptoms": [
+        "sneezing and an itchy, runny, or blocked nose", "itchy, red, watering eyes", "wheezing, chest tightness, shortness of breath, and a cough", "a raised, itchy, red rash", "swollen lips, tongue, eyes, or face", "tummy pain, feeling sick, vomiting, or diarrhoea", "dry, red, and cracked skin"
+      ]
+    },
+    {
+      "name": "asthma",
+      "symptoms": [
+        "wheezing", "shortness of breath", "a tight chest", "coughing"
+      ]
+    }
+  ]
+}
