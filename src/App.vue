@@ -7,6 +7,7 @@ import { ref, onMounted } from "vue"
 
 const masterConditionList = ref(masterList.conditions);
 const currentCondition = ref(null);
+const currentConditionIndex = ref(-1);
 const livesLost = ref(0);
 const score = ref({ correct: 0, incorrect: 0 });
 const gameStarted = ref(false);
@@ -29,6 +30,16 @@ function wrongAnswer() {
 }
 function getMedicalCondition() {
   const rng = Math.floor(Math.random() * masterConditionList.value.length);
+  if (rng !== currentConditionIndex) {
+    currentConditionIndex.value = rng;
+  } else if (rng === masterConditionList.value.length) {
+    rng = 0;
+    currentConditionIndex.value = rng;
+  } else {
+    rng++;
+    currentConditionIndex.value = rng;
+  }
+  
   currentCondition.value = masterConditionList.value[rng];
 }
 function makeGuess() {
@@ -50,6 +61,7 @@ function makeGuess() {
 function reset() {
   getMedicalCondition();
   livesLost.value = 0;
+  guess.value = "";
 }
 
 onMounted(() => {
