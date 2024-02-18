@@ -1,15 +1,61 @@
 {
   "conditions": [
     {
+      "name": "abdominal aortic aneurysm",
+      "symptoms": [
+        "pulsating feeling in your stomach, usually near your belly button that's usually only noticable when you touch it", "persistent back pain", "persistent abdominal pain"
+      ]
+    },
+    {
+      "name": "acute cholecystitis",
+      "symptoms": [
+        "sudden sharp pain in the upper right abdomen that spreads to right shoulder", "fever", "nausea and vomiting", "sweating", "loss of appetite", "jaundice", "a bulge in the abdomen"
+      ]
+    },
+    {
+      "name": "allergies",
+      "also_accept": "allergy",
+      "symptoms": [
+        "sneezing and an itchy, runny, or blocked nose", "itchy, red, watering eyes", "wheezing, chest tightness, shortness of breath, and a cough", "a raised, itchy, red rash", "swollen lips, tongue, eyes, or face", "tummy pain, feeling sick, vomiting, or diarrhoea", "dry, red, and cracked skin"
+      ]
+    },
+    {
+      "name": "alzheimer's disease",
+      "also_accept": "alzheimer's",
+      "symptoms": [
+        "memory lapses", "mood changes", "increasing anxiety", "agitation", "periods of confusion", "obsessive, repetitive, or impuslive behaviour", "delusions", "feeling paranoid", "problems with speech or language (aphasia)", "disturbed sleep", "difficulty performing spatial tasks", "hallucinations", "difficulty eating and swallowing (dysphagia)", "difficulty moving without assistance", "considerable weight loss", "urinary and/or bowel incontinence", "gradual loss of speech", "significant problems with short and long term memory"
+      ]
+    },
+    {
       "name": "anaphylaxis",
       "symptoms": [
         "itchy skin", "raised, red skin rash", "swollen eyes, lips, hands, and feet", "feeling lightheaded or faint", "swelling of the mouth, throat, or tongue", "wheezing", "abdombinal pain", "nausea and vomiting", "collaspe and unconsciousness"
       ]
     },
     {
-      "name": "allergies",
+      "name": "angina",
       "symptoms": [
-        "sneezing and an itchy, runny, or blocked nose", "itchy, red, watering eyes", "wheezing, chest tightness, shortness of breath, and a cough", "a raised, itchy, red rash", "swollen lips, tongue, eyes, or face", "tummy pain, feeling sick, vomiting, or diarrhoea", "dry, red, and cracked skin"
+        "chest pain", "central chest pain that doesn't go away", "pain that radiates down the left arm, or both arms, or to the neck, jaw, back, or stomach", "unconsciousness", "seizures or fitting", "difficulty breathing", "chest pain alongside breathlessness, nausea, and sweating"
+      ]
+    },
+    {
+      "name": "anorexia nervosa",
+      "also_accept": "anorexia",
+      "symptoms": [
+        "fear of being fat or gaining weight", "problems with self-esteem and body image when it comes to food and weight", "restricting food intake", "keeping your body weight low to the point it's unhealthy", "fine downy hair (lanugo) growing on the body", "more hair on the face", "pubic hair becoming sparse and thin", "slow or irregular heartbeat", "have pain in their abdomen", "feel bloated or constipated", "have swelling in their feet, hands, or face", "feel very tired", "have low blood pressure", "feel cold or have a low body temperature", "feel lightheaded or dizzy"
+      ]
+    },
+    {
+      "name": "anxiety",
+      "also_accept": "generalised anxiety disorder",
+      "symptoms": [
+        "restlessness", "a sense of dread", "feeling constantly on edge", "difficuly concentrating", "irritability", "dizziness", "tiredness", "a noticeable strong, fast, or irregular heartbeat", "muscle aches and tension", "trembling or shaking", "dry mouth", "excessive sweating", "shortness of breath", "stomach ache", "feeling sick", "headache", "pins and needles", "insomnia"
+      ]
+    },
+    {
+      "name": "appendicitis",
+      "symptoms": [
+        "pain in middle of abdomen that travels to your lower right hand side that becomes constant and severe", "feeling sick", "being sick", "loss of appetite", "diarrhoea", "fever and flushed face" 
       ]
     },
     {
@@ -17,6 +63,456 @@
       "symptoms": [
         "wheezing", "shortness of breath", "a tight chest", "coughing"
       ]
-    }
+    },
+    {
+      "name": "atrial fibrillation",
+      "symptoms": [
+        "palpatitations caused by a fast and irregular heartbeat", "tiredness", "breathlessness", "dizziness", "feeling faint", "palpitations", "chest discomfort or pain"
+      ]
+    },
+    {
+      "name": "attention deficit hyperactivity disorder",
+      "also_accept": "adhd",
+      "symptoms": [
+        "difficulty concentrating and paying attention", "hyperactivity", "impulsiveness", "inattentiveness", "easily distracted", "hard to listen to other people", "hard to organize yourself", "hard to wait", "fidget and can't sit still", "forgetful", "tend to lose or misplace things", "easily irritable", "hard to handle stress"
+      ]
+    },
+    {
+      "name": "autism spectrum disorder",
+      "also_accept": "autism",
+      "symptoms": [
+        "diffrent use of language", "different use of facial expressions, tone of voice, and gestures", "difficulty maintaining and making friends", "good at seeing patterns or solutions", "have a set way of doing things", "good with structured systems", "good attention to detail", "passionately interested in certain things", "avoid certain sensations", "sensory difficulties"
+      ]
+    },
+    {
+      "name": "benign prostate enlargement",
+      "also_accept": "benign prostatic hyperplasia",
+      "symptoms": [
+        "difficult to start urinating", "weaken the flow of urine or cause 'stopping and starting'", "strain when passing urine", "need to urinate frequently", "wake up frequently during the night to urinate", "sudden urge to urinate", "unable to empty bladder fully", "blood in urine"
+      ]
+    },
+    {
+      "name": "binge eating disorder",
+      "also_accept": "binge eating",
+      "symptoms": [
+        "regular bingeing", "eating much faster than normal", "eating until you feel uncomfortably full", "eating a large amount of food when you're not hungry", "eating alone or secretly due to embarrassment", "have feeling of guilt, shame, or disgust after eating"
+      ]
+    },
+    {
+      "name": "bipolar disorder",
+      "symptoms": [
+        "extreme mood swings, from mania to depression"
+      ]
+    },
+    {
+      "name": "bowel incontinence",
+      "symptoms": [
+        "inability to control bowel movements, resulting in involuntary soiling", "sudden need to go to the toilet but can't make it in time", "no sensation before soiling themselves"
+      ]
+    },
+    {
+      "name": "brain tumours",
+      "also_accept": "brain tumour",
+      "symptoms": [
+        "severe, persistent headaches", "seizures", "persistent nausea, vomiting, and drowsiness", "mental or behavioural changes", "memory problems or changes in personality", "progressive weakness or paralysis on one side of the body, vision problems, or speech problems"
+      ]
+    },
+    {
+      "name": "bronchitis",
+      "symptoms": [
+        "hacking cough that lasts several weeks", "sore throat", "headache", "runny or blocked nose", "aches and pains", "tiredness"
+      ]
+    },
+    {
+      "name": "bulimia nervosa",
+      "also_accept": "bulimia",
+      "symptoms": [
+        "bingeing and purging", "always thinking about food", "problems with self esteem", "focussing on body image when it comes to food and weight"
+      ]
+    },
+    {
+      "name": "cellulitis",
+      "symptoms": [
+        "skin that's become red, hot, swollen, painful, tender", "feeling generally unwell", "feeling sick", "shivering", "chills", "fever", "fast heartbeat or fast breathing", "diarrhoea", "feeling dizzy or faint", "confusion or disorientation", "cold, clammy, pale skin", "unresponsiveness or loss of consciousness"
+      ]
+    },
+    {
+      "name": "cirrhosis",
+      "symptoms": [
+        "tireness and weakness", "loss of appetite", "weight loss and muscle wasting", "nausea and vomiting", "tenderness or pain around the liver area", "tiny red lines on skin above waist level", "very itchy skin", "jaundice", "tendency to bleed and bruise more easily", "hair loss", "fever and shivering attacks", "swelling in the legs, ankles, and feet", "swelling in abdomen"
+      ]
+    },
+    {
+      "name": "clostridium difficile",
+      "also_accept": "c. difficile",
+      "symptoms": [
+        "watery diarrhoea which can be bloody", "painful tummy cramps", "feeling sick", "signs of dehydration", "fever above 38C", "loss of appetite and weight loss"
+      ]
+    },
+    {
+      "name": "celiac disease",
+      "also_accept": "coeliac disease",
+      "symptoms": [
+        "severe diarrhoea, excessive wind, and/or constipation", "persistent or unexplained GI symptoms such as nausea and vomiting", "recurrent stomach pain, cramping, or bloating", "iron, vitamin B12, or folic acid deficiency", "anaemia", "tiredness", "sudden or unexpected weight loss", "mouth ulcers", "skin rash", "depression", "repeated miscarriages", "nerve problems such as ataxia and peripheral neuropathy"
+      ]
+    },
+    {
+      "name": "conjunctivitis",
+      "also_accept": "pink eye",
+      "symptoms": [
+        "inflammation, redness, itchniess, watering in both eyes"
+      ]
+    },
+    {
+      "name": "crohn's disease",
+      "symptoms": [
+        "recurring diarrhoea", "abdominal pain and cramping which is usually worse after eating", "fatigue", "unintended weight loss", "blood and mucus in stool"
+      ]
+    },
+    {
+      "name": "croup",
+      "symptoms": [
+        "child with a bark-like cough", "child with a hoarse or croaky voice", "child difficulty breathing", "child with a harsh grating sound when breathing in (stridor)"
+      ]
+    },
+    {
+      "name": "cystitis",
+      "symptoms": [
+        "pain, burning, or stinging when you pee", "needing to pee more often and urgently than normal", "urine that's dark, cloudy, or strong smelling", "pain low down in abdomen", "generally feeling unwell, achy, sick, and tired"
+      ]
+    },
+    {
+      "name": "deep vein thrombosis",
+      "symptoms": [
+        "pain, swelling, and tenderness in one leg", "heavy ache in affected area", "warm skin in the area of the clot", "red skin, particulary at the back of your leg below the knee"
+      ]
+    },
+    {
+      "name": "dehydration",
+      "symptoms": [
+        "thirst", "dark coloured urine", "dizziness or light-headedness", "headache", "tiredness", "dry mouth, lips and eyes", "passing small amounts of urine infrequently (less than 3 or 4 times a day)", "loss of strength and stamina" 
+      ]
+    },
+    {
+      "name": "dementia",
+      "symptoms": [
+        "memory loss", "problems with thinking speed", "slower mental agility", "problems with language", "poor judgement", "apathetic", "problems controlling their emotions", "change in personality", "lose empathy", "hallucinations", "depression", "periods of mental confusion"
+      ]
+    },
+    {
+      "name": "depression",
+      "symptoms": [
+        "feeling hopeless, sad, and lacking interest in things that use to make them happy", "continuous sadness or low mood", "losing motivation", "not getting any enjoyment in life", "feeling irritable", "hard to make decisions", "feeling intolerant of other people", "low self-esteem", "thinking of self-harm", "weight change", "appetite change", "constipation", "loss of interest in sex", "disturbed sleep", "loss of energy", "change in menstrual cycle", "doing poorly at work", "socalising less"
+      ]
+    },
+    {
+      "name": "dermatitis herpetiformis",
+      "symptoms": [
+        "red, raised patches of skin often with blisters that burst with scratching", "severe itching and often stinging", "diarrhoea", "constipation", "stomach pain", "bloating"
+      ]
+    },
+    {
+      "name": "diabetes",
+      "symptoms": [
+        "feeling very thirsty", "urinating more frequently than usual, particulary at night", "feeling very tired", "weight loss and loss of muscle bulk", "itching around the penis or vagina, or frequent episodes of thrush", "cuts or wounds that heal slowly", "blurred vision"
+      ]
+    },
+    {
+      "name": "diarrhea",
+      "also_accept": "diarrhoea",
+      "symptoms": [
+        "passing looser, watery, or more frequent stools than normal"
+      ]
+    },
+    {
+      "name": "dizziness",
+      "also_accept": "lightheadedness",
+      "symptoms": [
+        "feeling off balance", "feeling like surroundings are spinning"
+      ]
+    },
+    {
+      "name": "dysphagia",
+      "symptoms": [
+        "swallowing difficulties", "coughing or choking when eating or drinking", "bringing food back up, sometimes through the nose", "a sensation that food is stuck in your throat or chest", "persistent drooling of saliva"
+      ]
+    },
+    {
+      "name": "earache",
+      "symptoms": [
+        "sharp, dull, or burning ear pain that comes and goes or is constant"
+      ]
+    },
+    {
+      "name": "endometriosis",
+      "symptoms": [
+        "pain in the lower abdomen, pelvis, lower back, or legs", "painful periods", "pain during ovulation", "heavy or prolonged periods", "spotting or bleeding between periods", "pain during and after sex", "pain or bleeding when going to the toilet", "bleeding from rectum", "blood in stool", "fatigue", "difficulty getting pregnant"
+      ]
+    },
+    {
+      "name": "epilepsy",
+      "symptoms": [
+        "repeated seizures"
+      ]
+    },
+    {
+      "name": "erctile dysfunction",
+      "also_accept": "impotence",
+      "symptoms": [
+        "inability to get and maintain an erection"
+      ]
+    },
+    {
+      "name": "escherichia coli",
+      "also_accept": "e. coli",
+      "symptoms": [
+        "diarrhea (can be bloody)", "stomach cramps", "fever"
+      ]
+    },
+    {
+      "name": "fibromyalgia",
+      "symptoms": [
+        "widespread pain that can feel like an ache, burning sensation, sharp stabbing, or a mixture", "increasing sensitivity to sensations", "fatigue", "muscle stiffness", "difficulty sleeping", "problems with mental processes", "headaches", "IBS", "dizziness and clumsiness", "feeling too hot or too cold", "restless leg syndrome", "pins and needles", "unusually painful periods", "anxiety", "depression"
+      ]
+    },
+    {
+      "name": "flu",
+      "symptoms": [
+        "sudden high temperature", "tiredness and weakness", "headache", "general aches and pains", "a dry, chesty cough", "sore throat", "difficulty sleeping", "loss of appetite", "diarrhea or stomach pain", "feeling sick and being sick", "chills", "sneezing"
+      ]
+    },
+    {
+      "name": "food poisoning",
+      "symptoms": [
+        "nausea", "vomiting", "diarrhea which may contain blood or mucus", "stomach cramps and abdominal pain", "lack of energy or weakness", "loss of appetite", "fever", "aching muscles", "chills"
+      ]
+    },
+    {
+      "name": "fungal nail infection",
+      "also_accept": "fungal infection",
+      "symptoms": [
+        "nail discolouration", "thickening and distortion of the nail", "pain or discomfort when pressure is on the nail", "brittle or crumbly nails", "nearby skin can become infected, itchy, cracked, red, swollen"
+      ]
+    },
+    {
+      "name": "gastroenteritis",
+      "symptoms": [
+        "sudden, watery diarrhea", "feeling sick", "vomiting (may be projectile)", "mild fever", "loss of appetite", "upset stomach", "aching limbs", "headaches"
+      ]
+    },
+    {
+      "name": "gastroesophageal reflux disease",
+      "also_accept": "gerd",
+      "symptoms": [
+        "heartburn", "acid reflux", "esophagitis", "bad breath", "bloating anf belching", "feeling or being sick", "pain and/or difficulty when swallowing"
+      ]
+    },
+    {
+      "name": "gout",
+      "symptoms": [
+        "severe pain in one or more joints", "joint feeling hot and very tender", "swelling in and around the affected joint", "red, shiny skin over affected joint"
+      ]
+    },
+    {
+      "name": "hiatus hernia",
+      "symptoms": [
+        "rarely has noticable symptoms, but can cause gerd"
+      ]
+    },
+    {
+      "name": "hyperglycemia",
+      "also_accept": "high blood sugar",
+      "symptoms": [
+        "increased thirst and dry mouth", "needing to pee frequently", "tiredness", "blurred vision", "unintentional weight loss", "recurrent infections such as thrush, cystitis, and skin infections"
+      ]
+    },
+    {
+      "name": "hypoglycemia",
+      "also_accept": "low blood sugar",
+      "symptoms": [
+        "feeling hungry", "trembling or shakiness", "sweating", "feeling confused", "difficulty concentrating"
+      ]
+    },
+    {
+      "name": "insomnia",
+      "symptoms": [
+        "difficulty getting to sleep or staying asleep for long enough to feel rested"
+      ]
+    },
+    {
+      "name": "iron deficiency anemia",
+      "also_accept": "anemia",
+      "symptoms": [
+        "lethargy", "shortness of breath", "noticable heartbeats", "pale complexion", "headache", "tinnitus", "altered sense of taste", "feeling itchy", "a sore or abnormally smooth tongue", "hair loss", "a desire to eat non-food items (ice, paper, clay)", "dysphagia", "ulcers on the corners of your mouth", "spoon shaped nails"
+      ]
+    },
+    {
+      "name": "irritable bowel syndrome",
+      "symptoms": [
+        "abdominal pain and cramping which may be relieved by moving your bowels", "change in bowel habits (diarrhea, constipation, or both", "bloating and swelling of your stomach", "flatulence", "occasionally experiencing an urgent need to move your bowels", "lethargy", "nausea", "heartburn"
+      ]
+    },
+    {
+      "name": "lupus",
+      "symptoms": [
+        "fatigue", "rashes particularly on the face, wrists, and hands", "joint pain and swelling"
+      ]
+    },
+    {
+      "name": "malaria",
+      "symptoms": [
+        "fever", "headache", "sweats", "chills", "muscle aches or pains", "vomiting and/or diarrhea"
+      ]
+    },
+    {
+      "name": "meningitis",
+      "symptoms": [
+        "fever over 37.5C", "vomiting", "headache", "blotchy rash that doesn't fade when a glass is rolled over it (this won't always develop)", "stiff neck", "dislike of bright lights", "drowsiness of unresponsiveness", "seizures"
+      ]
+    },
+    {
+      "name": "menopause",
+      "symptoms": [
+        "change in the normal pattern of your periods", "anxiety", "changes in mood", "changes in skin conditions", "difficulty sleeping", "discomfort during sex", "feelings of loss of self", "hair loss or thinning", "headaches or migraines", "hot flushes", "increase in facial hair", "joint stiffness, aches, and pains", "loss of self-confidence", "night sweats", "palpitations", "problems with memory, concentrationm and brain fog", "recurrent urinary tract infections", "urge and stress incontinence", "reduced libido", "tinnitus", "vaginal dryness and pain"
+      ]
+    },
+    {
+      "name": "migraine",
+      "symptoms": [
+        "moderate or severe headache felt as a throbbing pain on one side of the head", "nausea", "vomiting", "increased sensitivity to light or sound"
+      ]
+    },
+    {
+      "name": "multiple sclerosis",
+      "symptoms": [
+        "muscle spasms, stiffness and weakness", "vision problems", "abnormal sensations", "mobility problems", "pain", "bladder problems", "bowel problems", "sexual problems", "speech and swallowing difficulties", "fatigue", "mental heath issues", "problems with thinking, learning and planning"
+      ]
+    },
+    {
+      "name": "osteoporosis",
+      "symptoms": [
+        "wrist fractures", "hip fractures", "fractures of the spinal bones", "stooped posture"
+      ]
+    },
+    {
+      "name": "otitis externa",
+      "also_accept": "swimmer's ear",
+      "symptoms": [
+        "ear pain which can be severe", "itchiness in the ear canal", "discharge of liquid or pus from the ear", "some degree of temporary hearing loss"
+      ]
+    },
+    {
+      "name": "panic disorder",
+      "symptoms": [
+        "recurring and regular panic attacks for no apparent reason", "feelings of anxiety", "stress", "panic"
+      ]
+    },
+    {
+      "name": "parkinson's disease",
+      "also_accept": "parkinson's",
+      "symptoms": [
+        "involuntary shaking of particular parts of the body", "slow movement", "stiff and inflexible muscles", "depression and anxiety", "balance problems", "loss of sense of smell", "insomnia", "memory problems"
+      ]
+    },
+    {
+      "name": "polycystic ovary syndrome",
+      "symptoms": [
+        "irregular periods", "excess facial or body hair", "weight gain", "hair loss or thinning", "oily skin or acne", "difficulty or delays getting pregnant"
+      ]
+    },
+    {
+      "name": "psoriasis",
+      "symptoms": [
+        "red, flaky, crusty patches of skin covered with silvery scales", "itchiness", "soreness"
+      ]
+    },
+    {
+      "name": "restless legs syndrome",
+      "also_accept": "willis-ekbom disease",
+      "symptoms": [
+        "overwhelming urge to move your legs", "uncomfortable sensation in your legs", "tingling, burning, itching, or throbbing", "creepy-crawly feeling", "feeling like fizzy water is inside the blood vessels in the legs", "painful, cramping sensation in the legs, particularly in the calves"
+      ]
+    },
+    {
+      "name": "rheumatoid arthritis",
+      "symptoms": [
+        "joint pain that's throbbing and aching that's often worse in the morning and after inactivity", "stiff joints", "joint swelling, warmth, and redness", "tiredness and lack of energy", "fever", "sweating", "poor appetite", "weight loss"
+      ]
+    },
+    {
+      "name": "schizophrenia",
+      "symptoms": [
+        "changes in thinking and behaviour", "hallucinations", "delusions", "confused thoughts", "becoming more socially withdrawn", "losing interest in motivation and life", "lack of concentration", "not wanting to leave the house", "changes in sleeping patterns", "less likely to initiate conversations and being uncomfortable with people"
+      ]
+    },
+    {
+      "name": "septic shock",
+      "symptoms": [
+        "weakness", "chills", "rapid heart and breathing rate", "low blood pressure after an infection"
+      ]
+    },
+    {
+      "name": "sinusitis",
+      "symptoms": [
+        "green or yellow discharge from nose", "blocked nose", "pain and tenderness around cheeks, eyes, or forehead", "sinus headache", "fever of 38C or more", "toothache", "reduced sense of smell", "bad breath"
+      ]
+    },
+    {
+      "name": "stomach ulcer",
+      "also_accept": "gastric ulcer",
+      "symptoms": [
+        "burning or gnawing pain the center of abdomen", "indigestion", "heartburn", "nausea"
+      ]
+    },
+    {
+      "name": "supraventricular tachycardia",
+      "symptoms": [
+        "abnormally fast heartbeat", "chest pain", "dizziness", "light-headedness", "fatigue", "breathlessness"
+      ]
+    },
+    {
+      "name": "transient ischemic attack",
+      "symptoms": [
+        "face drop on one side", "weakness or numbness in one arm", "slurred speech", "complete paralysis of one side of the body", "sudden loss or blurring of vision", "dizziness", "confusion", "difficulty understanding what others are saying", "problems with balance and coordination"
+      ]
+    },
+    {
+      "name": "trigeminal neuralgia",
+      "symptoms": [
+        "sudden attacks of severe, sharp, and shooting facial pain (usually on one side of the face"
+      ]
+    },
+    {
+      "name": "tuberculosis",
+      "symptoms": [
+        "lack of appetite and weight loss", "fever", "night sweats", "extreme tiredness or fatigue"
+      ]
+    },
+    {
+      "name": "ulcerative colitis",
+      "symptoms": [
+        "recurring diarrhea which may contain blood, mucus, or pus", "abdominal pain", "needing to poo often", "fatigue", "loss of appetite", "weight loss", "arthritis", "mouth ulcers", "areas of painful, red, and swollen skin", "irritated and red eyes"
+      ]
+    },
+    {
+      "name": "urinary tract infection",
+      "also_accept": "uti",
+      "symptoms": [
+        "needing to pee more often than usual", "pain or discomfort when peeing", "sudden urges to pee", "feeling as though you're unable to empty your bladder fully", "pain low down in abdomen", "urine that's cloudy, foul-smelling, or contains blood", "feeling generally unwell, achy, and tired", "fever", "pain in sides or back", "shivering and chills", "feeling and being sick", "confusion", "agitation or restlessness"
+      ]
+    },
+    {
+      "name": "vertigo",
+      "symptoms": [
+        "sensation that you or the environment around you is moving or spinning", "loss of balance", "feeling sick or being sick", "dizziness"
+      ]
+    },
+    {
+      "name": "whooping cough",
+      "also_accept": "pertussis",
+      "symptoms": [
+        "intense coughing bouts", "runny nose", "red and watery eyes", "sore throat", "slightly raised temperature"
+      ]
+    },
   ]
 }
