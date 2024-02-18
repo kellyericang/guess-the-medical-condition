@@ -68,7 +68,7 @@ onMounted(() => {
     <div v-else> 
       <button @click="gameStarted = false">BACK</button>
       <ScoreBoard :score-correct="score.correct" :score-incorrect="score.incorrect" />
-      <SymptomList :symptoms="currentCondition.symptoms" />
+      <SymptomList :symptoms="currentCondition.symptoms" :guess-number="livesLost" />
       <Lives :lives-lost="livesLost"/>
       <button @click="skip">
         SKIP
