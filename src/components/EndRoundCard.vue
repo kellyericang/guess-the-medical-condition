@@ -22,12 +22,12 @@ defineProps({
     <div class="condition">
       The condition was {{ rightAnswer }}
     </div>
-    <ol>
-      Your Guesses
-      <li v-for="guessMade in guessesMade" :key="guessMade">
+    <div>
+      Your Guesses:
+      <div v-for="guessMade in guessesMade" :key="guessMade">
         {{ guessMade }}
-      </li>
-    </ol>
+      </div>
+    </div>
     <button @click="$emit('next-round')">NEXT ROUND</button>
   </div>
 </template>
@@ -50,16 +50,34 @@ defineProps({
   color: black;
   justify-content: space-around;
   padding: 48px;
+  text-align: center;
 }
 .result {
   font-weight: 600;
-  font-size: 4rem;
   color: black;
 }
 .condition {
   font-weight: 600;
-  font-size: 2rem;
   color: black;
+}
+@media screen and (max-width: 600px) {
+  .end-round-screen {
+    padding: 12px;
+  }
+  .result {
+    font-size: 2rem;
+  }
+  .condition {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 601px) {
+  .result {
+    font-size: 4rem;
+  }
+  .condition {
+    font-size: 2rem;
+  }
 }
 ol {
   font-size: 1rem;

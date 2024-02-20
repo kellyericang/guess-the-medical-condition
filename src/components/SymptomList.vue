@@ -17,7 +17,7 @@ defineProps({
 
 <template>
   <div class="symptom-list">
-    Symptoms
+    <h1>Symptoms</h1>
     <ul class="list">
       <li
         v-for="(symptom, index) in symptoms"
@@ -31,13 +31,11 @@ defineProps({
 </template>
 
 <style scoped>
-.scoreboard {
-  color: --color-text;
-  display: flex;
-}
-.score {
-  flex-grow: 1;
-  text-align: center;
+.list {
+  @media screen and (max-width: 600px) {
+    max-height: 50vh;
+    overflow-y: auto;
+  }
 }
 .hide-symptom {
   display: none;

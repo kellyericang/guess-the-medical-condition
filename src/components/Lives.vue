@@ -21,8 +21,12 @@ defineProps({
 </template>
 
 <style scoped>
-  svg {
-    height: 50px;
-    width: 50px;
-  }
+svg {
+  height: 50px;
+  width: 50px;
+}
+.lives {
+  display: flex;
+  justify-content: center;
+}
 </style>
