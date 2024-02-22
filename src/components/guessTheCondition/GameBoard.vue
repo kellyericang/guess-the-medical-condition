@@ -1,9 +1,9 @@
 <script setup>
-import masterList from "./masterList.json"
-import EndRoundCard from "./EndRoundCard.vue"
-import ScoreBoard from "./ScoreBoard.vue"
+import masterList from "../masterList.json"
+import EndRoundCard from "../EndRoundCard.vue"
+import ScoreBoard from "../ScoreBoard.vue"
 import SymptomList from "./SymptomList.vue"
-import Lives from "./Lives.vue"
+import Lives from "../Lives.vue"
 import { ref, onMounted } from "vue"
 
 const masterConditionList = ref(masterList.conditions);

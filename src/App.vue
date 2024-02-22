@@ -1,5 +1,5 @@
 <script setup>
-import GameBoard from "./components/GameBoard.vue"
+import GameBoard from "./components/guessTheCondition/GameBoard.vue"
 import { ref } from "vue"
 
 const gameStarted = ref(false);

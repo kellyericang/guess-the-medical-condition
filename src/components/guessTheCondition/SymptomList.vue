@@ -38,6 +38,6 @@ defineProps({
   }
 }
 .hide-symptom {
-  display: none;
+  filter: blur(4px);
 }
 </style>

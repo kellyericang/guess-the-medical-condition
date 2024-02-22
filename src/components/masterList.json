@@ -514,5 +514,90 @@
         "intense coughing bouts", "runny nose", "red and watery eyes", "sore throat", "slightly raised temperature"
       ]
     }
+  ],
+  "primary_complaints": [
+    {
+      "name": "abdominal pain",
+      "ddx": [
+        {
+          "name": "cardiovascular",
+          "conditions": [
+            "ACS", "pericarditis", "aortic dissection", "mesenteric ischemia", "sickle cell crisis"
+          ]
+        },
+        {
+          "name": "pulmonary",
+          "conditions": [
+            "pneumonia", "embolus"
+          ]
+        },
+        {
+          "name": "biliary",
+          "conditions": [
+            "cholecystitis", "cholelithiasis", "cholangitis"
+          ]
+        },
+        {
+          "name": "gastric",
+          "conditions": [
+            "esophagitis", "gastritis", "peptic ulcer", "small-bowel mass or obstruction"
+          ]
+        },
+        {
+          "name": "colonic",
+          "conditions": [
+            "appendicitis", "colitis", "diverticulitis", "IBD", "bowel obstruction", "peritonitis", "celiac disease"
+          ]
+        },
+        {
+          "name": "hepatic",
+          "conditions": [
+            "hepatitis", "abcess", "mass"
+          ]
+        },
+        {
+          "name": "pancreatic",
+          "conditions": [
+            "pancreatitis", "mass"
+          ]
+        },
+        {
+          "name": "renal",
+          "conditions": [
+            "cystitis", "nephrolithiasis", "pyelonephritis"
+          ]
+        },
+        {
+          "name": "splenic",
+          "conditions": [
+            "abscess"
+          ]
+        },
+        {
+          "name": "gynecologic",
+          "conditions": [
+            "ectopic pregnancy", "ovarian mass", "ovarian torsion", "PID", "fibroids", "endometriosis", "ovulatory pain", "ruptured ovarian cyst"
+          ]
+        },
+        {
+          "name": "abdominal wall",
+          "conditions": [
+            "herpes zoster", "muscle strain", "hernia"
+          ]
+        },
+        {
+          "name": "metabolic",
+          "conditions": [
+            "uremia", "DKA", "porphyria", "adrenal insufficiency", "narcotic withdrawal", "heavy metal poisoning"
+          ]
+        },
+        {
+          "name": "psych",
+          "conditions": [
+            "IBS"
+          ]
+        }
+      ]
+    }
   ]
 }
