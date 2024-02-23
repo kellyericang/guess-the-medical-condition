@@ -518,7 +518,7 @@
   "primary_complaints": [
     {
       "name": "abdominal pain",
-      "ddx": [
+      "systems": [
         {
           "name": "cardiovascular",
           "conditions": [
