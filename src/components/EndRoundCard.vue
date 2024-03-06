@@ -13,15 +13,12 @@ defineProps({
     required: true
   }
 })
-
 </script>
 
 <template>
   <div class="end-round-screen">
-    <div class="result">{{ correct ? "Correct!" : "Incorrect" }}</div>
-    <div class="condition">
-      The condition was {{ rightAnswer }}
-    </div>
+    <div class="result">{{ correct ? 'Correct!' : 'Incorrect' }}</div>
+    <div class="condition">The condition was {{ rightAnswer }}</div>
     <div>
       Your Guesses:
       <div v-for="guessMade in guessesMade" :key="guessMade">

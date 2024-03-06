@@ -1,19 +1,17 @@
 <script setup>
-import GameBoard from "./components/guessTheCondition/GameBoard.vue"
-import ddxGameBoard from "./components/ddx/ddxGameBoard.vue"
-import { ref } from "vue"
+import GameBoard from './components/guessTheCondition/GameBoard.vue'
+import ddxGameBoard from './components/ddx/ddxGameBoard.vue'
+import { ref } from 'vue'
 
-const gameStarted = ref(false);
-const ddxGameStarted = ref(false);
+const gameStarted = ref(false)
+const ddxGameStarted = ref(false)
 </script>
 
 <template>
   <main>
     <div v-if="!gameStarted && !ddxGameStarted" class="start-screen">
       <h1>Diagnosis Dash</h1>
-      <div class="rules">
-        Guess the medical condition based on the symptoms shown.
-      </div>
+      <div class="rules">Guess the medical condition based on the symptoms shown.</div>
       <button @click="gameStarted = true">START GAME!</button>
       <h1>ddx</h1>
       <div class="rules">
@@ -21,8 +19,8 @@ const ddxGameStarted = ref(false);
       </div>
       <button @click="ddxGameStarted = true">START GAME!</button>
     </div>
-    <GameBoard v-if="gameStarted" @back="gameStarted = false"/>
-    <ddxGameBoard v-if="ddxGameStarted" @back="ddxGameStarted = false"/>
+    <GameBoard v-if="gameStarted" @back="gameStarted = false" />
+    <ddxGameBoard v-if="ddxGameStarted" @back="ddxGameStarted = false" />
   </main>
 </template>
 

@@ -1,18 +1,16 @@
 <script setup>
-import { ref } from "vue"
+import { ref } from 'vue'
 
 defineProps({
   symptoms: {
     type: Array,
-    required: true,
+    required: true
   },
   guessNumber: {
     type: Number,
     required: true
   }
 })
-
-
 </script>
 
 <template>

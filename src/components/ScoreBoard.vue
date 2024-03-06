@@ -9,17 +9,12 @@ defineProps({
     required: true
   }
 })
-
 </script>
 
 <template>
   <div class="scoreboard">
-    <div class="score">
-      Correct: {{ scoreCorrect }}
-    </div>
-    <div class="score">
-      Incorrect: {{ scoreIncorrect }}
-    </div>
+    <div class="score">Correct: {{ scoreCorrect }}</div>
+    <div class="score">Incorrect: {{ scoreIncorrect }}</div>
   </div>
 </template>
 
