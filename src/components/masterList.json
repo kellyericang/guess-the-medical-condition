@@ -1064,6 +1064,84 @@
           "conditions": ["IBS"]
         }
       ]
+    },
+    {
+      "name": "chest pain",
+      "systems": [
+        {
+          "name": "cardiac",
+          "conditions": ["acute coronary syndrome", "myocarditis", "pericarditis"]
+        },
+        {
+          "name": "pulmonary",
+          "conditions": ["pulmonary embolism", "tension pneumothorax", "pneumonia", "copde", "acute chest syndrome (sickle cell)"]
+        },
+        {
+          "name": "GI",
+          "conditions": ["boerhaave's syndrome (esophageal rupture)", "GERD/PUD"]
+        },
+        {
+          "name": "chest wall",
+          "conditions": ["costochondritis", "MSK", "herpes zoster"]
+        },
+        {
+          "name": "other",
+          "conditions": ["thoracic aortic dissention", "anxiety"]
+        }
+      ]
+    },
+    {
+      "name": "cough",
+      "systems": [
+        {
+          "name": "history (children < 15 years)",
+          "conditions": ["immunization", "choking, foreign body"]
+        },
+        {
+          "name": "infection (children < 15 years)",
+          "conditions": ["bordetella pertussis", "URTI", "pneumonia", "recurrent viral infection", "bacterial bronchitis", "rhinosinusitis", "bronchiectasis", "cystic fibrosis", "croup"]
+        },
+        {
+          "name": "lung (children < 15 years)",
+          "conditions": ["physical/chemical irritants", "asthma"]
+        },
+        {
+          "name": "GI (children < 15 years)",
+          "conditions": ["foreign body", "GERD"]
+        },
+        {
+          "name": "congenital anomalies (neonatal onset)",
+          "conditions": ["tracheoesophageal fistula", "laryngotracheomalacia"]
+        },
+        {
+          "name": "other (children < 15 years)",
+          "conditions": ["cardiac (heart failure)", "allergy"]
+        },
+        {
+          "name": "common causes",
+          "conditions": ["post infectious (URTI/pneumonia/sinusitis/bronchitis", "upper airway cough syndrome (UACS, previously postnasal drip", "asthma", "COPD", "GERD", "medication - ACE-inhibitor"]
+        },
+        {
+          "name": "always consider",
+          "conditions": ["respirology", "heart failure", "complicated GERD"]
+        },
+        {
+          "name": "always consider < respirology",
+          "conditions": ["pneumothorax", "pulmonary embolism", "tuberculosis", "pneumonia", "lung cancer", "mets", "aspiration", "foreign body", "interstitial lung disease", "workplace exposure", "OSA"]
+        },
+        {
+          "name": "history",
+          "conditions": ["exposures", "red flags", "ACE-inhibitor", "severity"]
+        },
+        {
+          "name": "history < exposures",
+          "conditions": ["occupation", "irritants", "travel", "sick contacts"]
+        },
+        {
+          "name": "history < red flags",
+          "conditions": ["systemic symptoms", "dyspnea", "hemoptysis", "exposure", "chest pain"]
+        }
+      ]
     }
   ]
 }
